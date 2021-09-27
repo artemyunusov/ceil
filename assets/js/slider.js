@@ -31,27 +31,17 @@ $('.services-slider').slick({
   slidesToScroll: 1,
 	autoplay: false,
 	arrows: false,
-	dots: false
-  // responsive: [
-  //   {
-  //     breakpoint: 768,
-  //     settings: {
-  //       arrows: false,
-  //       centerMode: true,
-  //       centerPadding: '40px',
-  //       slidesToShow: 3
-  //     }
-  //   },
-  //   {
-  //     breakpoint: 480,
-  //     settings: {
-  //       arrows: false,
-  //       centerMode: true,
-  //       centerPadding: '40px',
-  //       slidesToShow: 1
-  //     }
-  //   }
-  // ]
+	dots: false,
+  responsive: [
+    {
+      breakpoint: 600,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        slidesToShow: 1
+      }
+    }
+  ]
 });
 
 $('.review-slider').slick({
@@ -87,25 +77,14 @@ $('.partners-slider').slick({
   slidesToScroll: 1,
 	autoplay: false,
 	arrows: false,
-	dots: false
-  // responsive: [
-  //   {
-  //     breakpoint: 768,
-  //     settings: {
-  //       arrows: false,
-  //       centerMode: true,
-  //       centerPadding: '40px',
-  //       slidesToShow: 3
-  //     }
-  //   },
-  //   {
-  //     breakpoint: 480,
-  //     settings: {
-  //       arrows: false,
-  //       centerMode: true,
-  //       centerPadding: '40px',
-  //       slidesToShow: 1
-  //     }
-  //   }
-  // ]
+	dots: false,
+  responsive: [
+    {
+      breakpoint: 600,
+      settings: {
+        centerMode: true,
+        slidesToShow: 2
+      }
+    }
+  ]
 });
