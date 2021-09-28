@@ -15,8 +15,9 @@
 }
 
 .about-suptitle h3 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
+  text-transform: capitalize;
   font-family: "Poppins", sans-serif;
   color: #f9b522;
 }
@@ -242,7 +243,7 @@
   display: flex;
   -webkit-box-pack: start;
           justify-content: flex-start;
-  width: 25%;
+  width: 35%;
 }
 
 .services-top-title h2 {
@@ -250,10 +251,11 @@
   font-weight: 600;
   color: #242c33;
   font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
 }
 
 .services-top-text {
-  width: 50%;
+  width: 40%;
 }
 
 .services-top-text p {
@@ -261,6 +263,7 @@
   font-weight: 300;
   color: #74787d;
   font-family: "Rubik", sans-serif;
+  text-align: center;
   line-height: 1.5;
 }
 
@@ -290,6 +293,16 @@
 .services-top-btn a:hover {
   background-color: #242c33;
   color: #fff;
+}
+
+.services-item-img {
+  height: 230px;
+}
+
+.services-item-img img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .services-item-low-wrap {
@@ -356,6 +369,7 @@
   font-weight: 600;
   color: #242c33;
   font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
 }
 
 .portfolio-text {
@@ -418,9 +432,26 @@
 
 .portfolio-item {
   width: 24%;
+  height: 250px;
   margin-right: 1%;
   margin-bottom: 1%;
   position: relative;
+}
+
+.portfolio-item-wrap {
+  height: 100%;
+  width: 100%;
+}
+
+.portfolio-item-img {
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-item-img img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .portfolio-item:hover::before {
@@ -539,6 +570,7 @@
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #242c33;
+  text-transform: capitalize;
 }
 
 .faq-text {
@@ -617,6 +649,7 @@
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #242c33;
+  text-transform: capitalize;
 }
 
 .review-text {
@@ -704,16 +737,6 @@
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
-}
-
-.footer-wrap::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .footer {

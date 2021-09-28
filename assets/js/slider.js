@@ -1,7 +1,7 @@
 $('.slider-slick').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
-	autoplay: false,
+	autoplay: true,
 	arrows: false,
 	dots: false
   // responsive: [
@@ -29,7 +29,7 @@ $('.slider-slick').slick({
 $('.services-slider').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
-	autoplay: false,
+	autoplay: true,
 	arrows: false,
 	dots: false,
   responsive: [
@@ -47,7 +47,7 @@ $('.services-slider').slick({
 $('.review-slider').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
-	autoplay: false,
+	autoplay: true,
 	arrows: false,
 	dots: false
   // responsive: [
@@ -75,7 +75,7 @@ $('.review-slider').slick({
 $('.partners-slider').slick({
   slidesToShow: 4,
   slidesToScroll: 1,
-	autoplay: false,
+	autoplay: true,
 	arrows: false,
 	dots: false,
   responsive: [
