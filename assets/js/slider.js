@@ -34,10 +34,9 @@ $('.services-slider').slick({
 	dots: false,
   responsive: [
     {
-      breakpoint: 600,
+      breakpoint: 1025,
       settings: {
         arrows: false,
-        centerMode: true,
         slidesToShow: 1
       }
     }
@@ -82,7 +81,6 @@ $('.partners-slider').slick({
     {
       breakpoint: 600,
       settings: {
-        centerMode: true,
         slidesToShow: 2
       }
     }

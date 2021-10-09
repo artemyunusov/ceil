@@ -1177,6 +1177,10 @@ input {
     margin-left: auto;
   }
 
+  .services-item-wrap{
+    display: flex;
+  }
+
   .duplex-right,
   .duplex-left {
     padding: 5rem;
